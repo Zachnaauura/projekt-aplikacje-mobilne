@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textImieNazwisko"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Imię i Nazwisko"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textWiek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wiek" />
+
+    <TextView
+        android:id="@+id/textWzrost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wzrost" />
+
+    <TextView
+        android:id="@+id/textWaga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waga" />
+
+    <Button
+        android:id="@+id/btnUsun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="USUŃ" />
+</LinearLayout>
